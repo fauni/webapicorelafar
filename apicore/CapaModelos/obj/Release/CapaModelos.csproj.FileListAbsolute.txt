@@ -1,0 +1,10 @@
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaModelos\bin\Release\CapaModelos.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaModelos\bin\Release\CapaModelos.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaModelos\obj\Release\CapaModelos.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaModelos\obj\Release\CapaModelos.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaModelos\bin\Release\CapaModelos.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaModelos\bin\Release\CapaModelos.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaModelos\obj\Release\CapaModelos.csprojResolveAssemblyReference.cache
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaModelos\obj\Release\CapaModelos.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaModelos\obj\Release\CapaModelos.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaModelos\obj\Release\CapaModelos.csprojResolveAssemblyReference.cache

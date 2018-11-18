@@ -1,0 +1,21 @@
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Release\Reportes.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Release\Reportes.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Release\itextsharp.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\obj\Release\Reportes.csprojResolveAssemblyReference.cache
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\obj\Release\Reportes.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\obj\Release\Reportes.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Reportes\bin\Release\Reportes.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Reportes\bin\Release\Reportes.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Reportes\bin\Release\CapaModelos.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Reportes\bin\Release\CapaModelos.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Reportes\obj\Release\Reportes.csprojResolveAssemblyReference.cache
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Reportes\obj\Release\Reportes.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Reportes\obj\Release\Reportes.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Release\CapaModelos.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Release\CapaModelos.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Release\CapaNegocio.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Release\CapaDatos.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Release\Comunes.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Release\CapaNegocio.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Release\CapaDatos.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Release\Comunes.pdb

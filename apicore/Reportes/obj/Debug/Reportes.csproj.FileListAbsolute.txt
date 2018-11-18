@@ -1,0 +1,22 @@
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Debug\Reportes.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Debug\Reportes.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Debug\itextsharp.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\obj\Debug\Reportes.csprojResolveAssemblyReference.cache
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\obj\Debug\Reportes.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\obj\Debug\Reportes.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Debug\CapaModelos.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Debug\CapaModelos.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Reportes\bin\Debug\Reportes.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Reportes\bin\Debug\Reportes.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Reportes\bin\Debug\CapaModelos.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Reportes\bin\Debug\CapaModelos.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Reportes\obj\Debug\Reportes.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Reportes\obj\Debug\Reportes.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Reportes\obj\Debug\Reportes.csprojResolveAssemblyReference.cache
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Debug\CapaNegocio.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Debug\CapaDatos.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Debug\Comunes.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Debug\CapaNegocio.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Debug\CapaDatos.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Debug\Comunes.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Reportes\bin\Debug\itextsharp.xml

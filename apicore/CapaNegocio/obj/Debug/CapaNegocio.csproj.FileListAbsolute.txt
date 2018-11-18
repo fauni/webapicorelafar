@@ -1,0 +1,48 @@
+D:\PROYECTO FARMACIA\webapi\apifarmacia\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+D:\PROYECTO FARMACIA\webapi\apifarmacia\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+D:\PROYECTO FARMACIA\webapi\apifarmacia\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\PROYECTO FARMACIA\webapi\apifarmacia\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\PROYECTO FARMACIA\webapi\apifarmacia\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\PROYECTO FARMACIA\webapi\apifarmacia\CapaNegocio\bin\Debug\CapaModelos.dll
+D:\PROYECTO FARMACIA\webapi\apifarmacia\CapaNegocio\bin\Debug\Comunes.dll
+D:\PROYECTO FARMACIA\webapi\apifarmacia\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\PROYECTO FARMACIA\webapi\apifarmacia\CapaNegocio\bin\Debug\CapaModelos.pdb
+D:\PROYECTO FARMACIA\webapi\apifarmacia\CapaNegocio\bin\Debug\Comunes.pdb
+D:\PROYECTO FARMACIA\webapi\apifarmacia\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\PROYECTO FARMACIA\webapi\apifarmacia\CapaNegocio\obj\Debug\CapaNegocio.pdb
+E:\FARMACIA\apifarmacia\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+E:\FARMACIA\apifarmacia\CapaNegocio\bin\Debug\CapaNegocio.dll
+E:\FARMACIA\apifarmacia\CapaNegocio\bin\Debug\CapaNegocio.pdb
+E:\FARMACIA\apifarmacia\CapaNegocio\bin\Debug\CapaDatos.dll
+E:\FARMACIA\apifarmacia\CapaNegocio\bin\Debug\CapaModelos.dll
+E:\FARMACIA\apifarmacia\CapaNegocio\bin\Debug\Comunes.dll
+E:\FARMACIA\apifarmacia\CapaNegocio\bin\Debug\CapaDatos.pdb
+E:\FARMACIA\apifarmacia\CapaNegocio\bin\Debug\CapaModelos.pdb
+E:\FARMACIA\apifarmacia\CapaNegocio\bin\Debug\Comunes.pdb
+E:\FARMACIA\apifarmacia\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+E:\FARMACIA\apifarmacia\CapaNegocio\obj\Debug\CapaNegocio.dll
+E:\FARMACIA\apifarmacia\CapaNegocio\obj\Debug\CapaNegocio.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Debug\CapaModelos.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Debug\Comunes.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Debug\CapaModelos.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Debug\Comunes.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\obj\Debug\CapaNegocio.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Debug\CapaModelos.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Debug\Comunes.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Debug\CapaModelos.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Debug\Comunes.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\obj\Debug\CapaNegocio.pdb

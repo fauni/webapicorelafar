@@ -1,0 +1,24 @@
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Release\CapaNegocio.dll.config
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Release\CapaDatos.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Release\CapaModelos.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Release\Comunes.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Release\CapaModelos.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\bin\Release\Comunes.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\obj\Release\CapaNegocio.csprojResolveAssemblyReference.cache
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Release\CapaNegocio.dll.config
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Release\CapaDatos.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Release\CapaModelos.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Release\Comunes.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Release\CapaModelos.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\bin\Release\Comunes.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\obj\Release\CapaNegocio.csprojResolveAssemblyReference.cache
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaNegocio\obj\Release\CapaNegocio.pdb

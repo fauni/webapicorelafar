@@ -1,0 +1,15 @@
+D:\PROYECTO FARMACIA\webapi\apifarmacia\CapaDatos\bin\Debug\CapaDatos.dll
+D:\PROYECTO FARMACIA\webapi\apifarmacia\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\PROYECTO FARMACIA\webapi\apifarmacia\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+D:\PROYECTO FARMACIA\webapi\apifarmacia\CapaDatos\obj\Debug\CapaDatos.dll
+D:\PROYECTO FARMACIA\webapi\apifarmacia\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaDatos\bin\Debug\CapaDatos.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaDatos\obj\Debug\CapaDatos.dll
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaDatos\bin\Debug\CapaDatos.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaDatos\obj\Debug\CapaDatos.dll
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
