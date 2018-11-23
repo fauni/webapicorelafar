@@ -8,3 +8,8 @@ D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Comunes\bin\Release\Comunes.pdb
 D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Comunes\obj\Release\Comunes.csprojResolveAssemblyReference.cache
 D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Comunes\obj\Release\Comunes.dll
 D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Comunes\obj\Release\Comunes.pdb
+D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\Comunes\bin\Release\Comunes.dll
+D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\Comunes\bin\Release\Comunes.pdb
+D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\Comunes\obj\Release\Comunes.csprojResolveAssemblyReference.cache
+D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\Comunes\obj\Release\Comunes.dll
+D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\Comunes\obj\Release\Comunes.pdb

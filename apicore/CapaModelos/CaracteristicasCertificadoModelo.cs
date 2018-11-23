@@ -52,6 +52,6 @@ namespace CapaModelos
          public DateTime fecha_creacion { get; set; }
          public string usuario_modificacion { get; set; }
          public DateTime fecha_modificacion { get; set; }
-
+         public int orden { get; set; }
      }
 }

@@ -45,11 +45,14 @@
     <Compile Include="CertificadoMP.cs" />
     <Compile Include="CertificadoMPNegocio.cs" />
     <Compile Include="CertificadoPTNegocio.cs" />
+    <Compile Include="DepartamentoNegocio.cs" />
     <Compile Include="FabricanteNegocio.cs" />
+    <Compile Include="ItemAppNegocio.cs" />
     <Compile Include="Parametros.cs" />
     <Compile Include="PersonaNegocio.cs" />
     <Compile Include="PersonaVacacionNegocio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RolNegocio.cs" />
     <Compile Include="UsuariosNegocio.cs" />
   </ItemGroup>
   <ItemGroup>

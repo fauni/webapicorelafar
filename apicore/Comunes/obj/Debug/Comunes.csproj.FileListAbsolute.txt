@@ -12,4 +12,8 @@ D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Comunes\bin\Debug\Comunes.pdb
 D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Comunes\obj\Debug\Comunes.dll
 D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Comunes\obj\Debug\Comunes.pdb
 D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\Comunes\obj\Debug\Comunes.csprojResolveAssemblyReference.cache
-D:\DATOS LAFAR\Desarrollo2018\apicore\apicore\Comunes\obj\Debug\Comunes.csprojResolveAssemblyReference.cache
+D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\Comunes\bin\Debug\Comunes.dll
+D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\Comunes\bin\Debug\Comunes.pdb
+D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\Comunes\obj\Debug\Comunes.dll
+D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\Comunes\obj\Debug\Comunes.pdb
+D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\Comunes\obj\Debug\Comunes.csprojResolveAssemblyReference.cache

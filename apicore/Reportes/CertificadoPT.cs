@@ -363,7 +363,7 @@ namespace Reportes
                     celdaobs.HorizontalAlignment = Element.ALIGN_LEFT;
                     celdaobs.Colspan = 3;
                     tblobservaciones.AddCell(celdaobs);
-                    PdfPCell celdaobsna = new PdfPCell(new Paragraph(certificado.presentacion , this.font10));
+                    PdfPCell celdaobsna = new PdfPCell(new Paragraph(certificado.observaciones , this.font10));
                     celdaobsna.HorizontalAlignment = Element.ALIGN_LEFT;
                     celdaobsna.Colspan = 3;
                     celdaobsna.Padding = 10;

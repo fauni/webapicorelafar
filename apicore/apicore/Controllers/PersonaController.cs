@@ -28,14 +28,16 @@ namespace apicore.Controllers
         }
 
         // GET api/persona/5
-        public ResponsePersona Get(int id)
+        public ResponsePersonaVacacion Get(string id)
         {
-            return new ResponsePersona
+            List<PersonaVacacion> lpv = new List<PersonaVacacion>();
+            lpv = pn.GetEstadoVacacionesNacional(id.Replace("|", "."));
+            return new ResponsePersonaVacacion
             {
                 status = 200,
-                body = null,
-                length = 0,
-                message = "OK"
+                body = lpv,
+                length = lpv.Count,
+                message = "OK",
             };
         }
 

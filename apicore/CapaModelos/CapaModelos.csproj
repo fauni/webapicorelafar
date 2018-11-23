@@ -43,11 +43,14 @@
     <Compile Include="CaracteristicasCertificadoModelo.cs" />
     <Compile Include="CertificadoMPModelo.cs" />
     <Compile Include="CertificadoPTModelo.cs" />
+    <Compile Include="Departamento.cs" />
     <Compile Include="Fabricante.cs" />
     <Compile Include="InformacionRegistro.cs" />
+    <Compile Include="ItemApp.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="PersonaVacacion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rol.cs" />
     <Compile Include="Usuarios.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

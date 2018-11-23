@@ -167,10 +167,13 @@
     <Compile Include="Controllers\CertificadoAnalisisMPController.cs" />
     <Compile Include="Controllers\CertificadoMPController.cs" />
     <Compile Include="Controllers\CertificadoPTController.cs" />
+    <Compile Include="Controllers\DepartamentoController.cs" />
     <Compile Include="Controllers\FabricanteController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ItemAppController.cs" />
     <Compile Include="Controllers\PersonaController.cs" />
     <Compile Include="Controllers\PersonaVacacionController.cs" />
+    <Compile Include="Controllers\RolController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">

@@ -180,5 +180,65 @@ namespace CapaNegocio
                 return null;
             }
         }
+
+        #region VACACIONES PERSONAL POR REGIONAL A NIVEL NACIONAL
+
+        public List<PersonaVacacion> GetEstadoVacacionesNacional(string regional)
+        {
+            try
+            {
+                CapaDatos.StoreProcedure consultaMS = new CapaDatos.StoreProcedure("sp_vacacionesnacional");
+                consultaMS.AgregarParametro("@fecha", "20180515");
+                consultaMS.AgregarParametro("@OFI", regional);
+                DataTable dtMS = consultaMS.RealizarConsulta(Parametros.ConexionBDSAP());
+
+                ConsultaMySql consulta = new ConsultaMySql(@"select u.userid, u.idsap, CONCAT(u.first_name,' ', u.last_name) as Personal, if (total is null, 0, total) as total
+                            from lafarnet.users u 
+                            left join (select id_usuario_sap ,SUM(dias) as total 
+                            from lafarnet.glv_vacaciones 
+                            where estado_subida = 0 and estado <> 2
+                            group by id_usuario_sap) v on u.idsap= v.id_usuario_sap
+                            where u.status = 'live';");
+                //StoreProcedure consulta = new StoreProcedure("sp_GetPersona");
+                DataTable dt = consulta.EjecutarConsulta(Parametros.ConexionBDMySQL());
+
+                DataView view = dt.AsDataView();
+
+                List<PersonaVacacion> lvzofra = new List<PersonaVacacion>();
+                foreach (DataRow item in dtMS.Rows)
+                {
+                    view.RowFilter = "idsap=" + item["empid"].ToString();
+                    float saldo = 0;
+                    if (view.Count > 0)
+                    {
+                        saldo = float.Parse(view[0][3].ToString().Replace(',', '.'), System.Globalization.CultureInfo.InvariantCulture);
+                    }
+                    PersonaVacacion p = new PersonaVacacion
+                    {
+                        empid = Convert.ToInt32(item["empid"]),
+                        empleado = item["empleado"].ToString(),
+                        cargo = item["cargo"].ToString(),
+                        fecha_ingreso = (Convert.ToDateTime(item["fecha_ingreso"])).ToShortDateString(),
+                        fecha = (Convert.ToDateTime(item["fecha"])).ToShortDateString(),
+                        numdias = float.Parse(item["numdias"].ToString().Replace(',', '.'), System.Globalization.CultureInfo.InvariantCulture),
+                        ant = float.Parse(item["ant"].ToString().Replace(',', '.'), System.Globalization.CultureInfo.InvariantCulture),
+                        saldo = float.Parse(item["saldo"].ToString().Replace(',', '.'), System.Globalization.CultureInfo.InvariantCulture),
+                        saldo_total = float.Parse(item["saldo"].ToString().Replace(',', '.'), System.Globalization.CultureInfo.InvariantCulture) - saldo,
+                        duodecima = float.Parse(item["duodecima"].ToString().Replace(',', '.'), System.Globalization.CultureInfo.InvariantCulture),
+                        oficina = item["oficina"].ToString(),
+                        area = item["area"].ToString()
+                    };
+                    lvzofra.Add(p);
+                }
+                return lvzofra;
+            }
+            catch (Exception ex)
+            {
+                //log.RegistroLogAlerta("GetSolFiltro: " + ex.ToString());
+                return null;
+            }
+        }
+
+        #endregion
     }
 }
