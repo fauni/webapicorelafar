@@ -6,7 +6,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\publicado</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\lafarnetservice</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="Areas/HelpPage/HelpPage.css">
@@ -52,25 +52,25 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>09/05/2018 15:41:26</publishTime>
     </File>
     <File Include="bin/apicore.dll">
-      <publishTime>11/20/2018 12:57:25</publishTime>
+      <publishTime>11/26/2018 15:57:10</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>11/20/2018 12:57:42</publishTime>
+      <publishTime>11/27/2018 13:09:00</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>11/20/2018 12:57:42</publishTime>
+      <publishTime>11/27/2018 13:09:00</publishTime>
     </File>
     <File Include="bin/CapaDatos.dll">
-      <publishTime>11/20/2018 09:47:58</publishTime>
+      <publishTime>11/26/2018 15:57:07</publishTime>
     </File>
     <File Include="bin/CapaModelos.dll">
-      <publishTime>11/20/2018 12:57:22</publishTime>
+      <publishTime>11/26/2018 15:57:07</publishTime>
     </File>
     <File Include="bin/CapaNegocio.dll">
-      <publishTime>11/20/2018 12:57:23</publishTime>
+      <publishTime>11/26/2018 15:57:08</publishTime>
     </File>
     <File Include="bin/Comunes.dll">
-      <publishTime>11/20/2018 09:47:58</publishTime>
+      <publishTime>11/26/2018 15:57:07</publishTime>
     </File>
     <File Include="bin/de/Microsoft.Data.Edm.resources.dll">
       <publishTime>09/05/2018 15:41:21</publishTime>
@@ -190,7 +190,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>09/05/2018 15:41:14</publishTime>
     </File>
     <File Include="bin/Reportes.dll">
-      <publishTime>11/20/2018 12:57:24</publishTime>
+      <publishTime>11/26/2018 15:57:09</publishTime>
     </File>
     <File Include="bin/ru/Microsoft.Data.Edm.resources.dll">
       <publishTime>09/05/2018 15:41:22</publishTime>
@@ -484,7 +484,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>09/09/2018 10:15:02</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>11/20/2018 12:57:31</publishTime>
+      <publishTime>11/27/2018 13:08:49</publishTime>
     </File>
     <File Include="Scripts/jquery-1.8.2.js">
       <publishTime>09/05/2018 15:41:09</publishTime>
@@ -544,7 +544,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>09/05/2018 15:40:58</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/20/2018 09:48:01</publishTime>
+      <publishTime>11/27/2018 13:08:46</publishTime>
     </File>
   </ItemGroup>
 </Project>

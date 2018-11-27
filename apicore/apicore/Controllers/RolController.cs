@@ -35,6 +35,7 @@ namespace apicore.Controllers
         // POST api/rol
         public void Post([FromBody]string value)
         {
+
         }
 
         // PUT api/rol/5

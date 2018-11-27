@@ -11,13 +11,15 @@ namespace CapaNegocio
 {
     public class ItemAppNegocio
     {
-        public List<ItemApp> GetListaItems(int idapp)
+        public List<ItemApp> GetListaItems(int idrol)
         {
             List<ItemApp> litem = new List<ItemApp>();
             List<ItemApp> lsubitem = new List<ItemApp>();
             try
             {
-                ConsultaMySql consulta = new ConsultaMySql(@"select * from newlafarnet.item_apps where app_id = " + idapp + @" and tipo = 'm';");
+                ConsultaMySql consulta = new ConsultaMySql(@"select * from newlafarnet.item_apps i
+                    inner join newlafarnet.item_rol ir on i.id = ir.id_item_app
+                    where ir.id_rol = "+idrol+@" and tipo = 'm';");
                 DataTable dt = consulta.EjecutarConsulta(Parametros.ConexionBDMySQL());
                 if (dt.Rows.Count <= 0)
                     throw new Exception("No trajo datos  de la consulta de la base de datos");
@@ -37,7 +39,7 @@ namespace CapaNegocio
                         fecha_creacion = Convert.ToDateTime(item["fecha_creacion"]),
                         usuario_modificacion = (item["usuario_modificacion"]).ToString(),
                         fecha_modificacion = Convert.ToDateTime(item["fecha_modificacion"]),
-                        items = this.GetListaSubItems(Convert.ToInt32(item["id"]))
+                        items = this.GetListaSubItems(idrol, Convert.ToInt32(item["id"]))
                     };
                     litem.Add(ia);
                 }
@@ -49,13 +51,15 @@ namespace CapaNegocio
             }
         }
 
-        public List<ItemApp> GetListaSubItems(int iditem)
+        public List<ItemApp> GetListaSubItems(int idrol, int id_mother)
         {
             List<ItemApp> litem = new List<ItemApp>();
             List<ItemApp> lsubitem = new List<ItemApp>();
             try
             {
-                ConsultaMySql consulta = new ConsultaMySql(@"select * from newlafarnet.item_apps where id_mother = " + iditem + @" and tipo = 'c';");
+                ConsultaMySql consulta = new ConsultaMySql(@"select * from newlafarnet.item_apps i
+                    inner join newlafarnet.item_rol ir on i.id = ir.id_item_app
+                    where ir.id_rol = "+idrol+@" and tipo = 'c' and i.id_mother = "+id_mother+@";");
                 DataTable dt = consulta.EjecutarConsulta(Parametros.ConexionBDMySQL());
                 if (dt.Rows.Count <= 0)
                     throw new Exception("No trajo datos  de la consulta de la base de datos");

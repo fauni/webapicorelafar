@@ -174,6 +174,7 @@
     <Compile Include="Controllers\PersonaController.cs" />
     <Compile Include="Controllers\PersonaVacacionController.cs" />
     <Compile Include="Controllers\RolController.cs" />
+    <Compile Include="Controllers\UserRolController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">

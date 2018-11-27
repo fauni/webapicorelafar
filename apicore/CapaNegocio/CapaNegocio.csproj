@@ -53,6 +53,7 @@
     <Compile Include="PersonaVacacionNegocio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RolNegocio.cs" />
+    <Compile Include="UserRolNegocio.cs" />
     <Compile Include="UsuariosNegocio.cs" />
   </ItemGroup>
   <ItemGroup>
