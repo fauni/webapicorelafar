@@ -43,14 +43,24 @@
     <Compile Include="CaracteristicasCertificadoModelo.cs" />
     <Compile Include="CertificadoMPModelo.cs" />
     <Compile Include="CertificadoPTModelo.cs" />
+    <Compile Include="Conversacion.cs" />
     <Compile Include="Departamento.cs" />
+    <Compile Include="oc\OCDetalleOrdenCompra.cs" />
+    <Compile Include="oc\OCOrdenCompra.cs" />
+    <Compile Include="oc\OCTipoCompraEncargado.cs" />
+    <Compile Include="sc\DetalleSolicitudCompra.cs" />
     <Compile Include="Fabricante.cs" />
+    <Compile Include="FilesModels\File.cs" />
     <Compile Include="InformacionRegistro.cs" />
     <Compile Include="ItemApp.cs" />
+    <Compile Include="ItemsArticulo.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="PersonaVacacion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedor.cs" />
     <Compile Include="Rol.cs" />
+    <Compile Include="sc\Email.cs" />
+    <Compile Include="sc\SolicitudCompra.cs" />
     <Compile Include="UserRol.cs" />
     <Compile Include="Usuarios.cs" />
   </ItemGroup>

@@ -196,6 +196,7 @@ D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\api
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\Antlr3.Runtime.dll
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\CapaModelos.dll
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\CapaNegocio.dll
+D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\Comunes.dll
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\EntityFramework.dll
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\Microsoft.Data.Edm.dll
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\Microsoft.Data.OData.dll
@@ -219,10 +220,10 @@ D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\Sys
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\System.Web.WebPages.Razor.dll
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\WebGrease.dll
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\CapaDatos.dll
-D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\Comunes.dll
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\itextsharp.dll
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\CapaModelos.pdb
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\CapaNegocio.pdb
+D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\Comunes.pdb
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\Reportes.pdb
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\EntityFramework.xml
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\Newtonsoft.Json.xml
@@ -241,7 +242,6 @@ D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\Mic
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\Microsoft.Data.OData.xml
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\System.Spatial.xml
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\CapaDatos.pdb
-D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\Comunes.pdb
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\es\EntityFramework.resources.dll
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\es\System.Net.Http.Formatting.resources.dll
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\apicore\bin\es\System.Web.Helpers.resources.dll

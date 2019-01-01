@@ -14,6 +14,6 @@ D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaModelos\obj\Debug\CapaModelos.
 D:\DATOS LAFAR\Documentos MaritzaCruz\apicore\CapaModelos\obj\Debug\CapaModelos.csprojResolveAssemblyReference.cache
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\CapaModelos\bin\Debug\CapaModelos.dll
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\CapaModelos\bin\Debug\CapaModelos.pdb
+D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\CapaModelos\obj\Debug\CapaModelos.csprojResolveAssemblyReference.cache
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\CapaModelos\obj\Debug\CapaModelos.dll
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\CapaModelos\obj\Debug\CapaModelos.pdb
-D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\CapaModelos\obj\Debug\CapaModelos.csprojResolveAssemblyReference.cache

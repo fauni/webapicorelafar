@@ -13,3 +13,5 @@ D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\Comunes\bin\Rel
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\Comunes\obj\Release\Comunes.csprojResolveAssemblyReference.cache
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\Comunes\obj\Release\Comunes.dll
 D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\Comunes\obj\Release\Comunes.pdb
+D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\Comunes\bin\Release\CapaModelos.dll
+D:\DATOS LAFAR\Desarrollo2018\ABASTECIMIENTO\ServicioWeb\apicore\Comunes\bin\Release\CapaModelos.pdb

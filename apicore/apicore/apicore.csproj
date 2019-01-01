@@ -162,11 +162,17 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\conversacion\SCConversacionOrdenController.cs" />
+    <Compile Include="Controllers\orden\SCDetalleOrdenCompraController.cs" />
+    <Compile Include="Controllers\orden\SCTipoCompraEncargadoController.cs" />
+    <Compile Include="Controllers\orden\SCOrdenCompraXController.cs" />
+    <Compile Include="Controllers\solicitud\AutorizarSolicitudController.cs" />
     <Compile Include="Controllers\CaracteristicasCertificadoController.cs" />
     <Compile Include="Controllers\CertificadoAnalisisController.cs" />
     <Compile Include="Controllers\CertificadoAnalisisMPController.cs" />
     <Compile Include="Controllers\CertificadoMPController.cs" />
     <Compile Include="Controllers\CertificadoPTController.cs" />
+    <Compile Include="Controllers\conversacion\SCConversacionSolicitudController.cs" />
     <Compile Include="Controllers\DepartamentoController.cs" />
     <Compile Include="Controllers\FabricanteController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -174,6 +180,16 @@
     <Compile Include="Controllers\PersonaController.cs" />
     <Compile Include="Controllers\PersonaVacacionController.cs" />
     <Compile Include="Controllers\RolController.cs" />
+    <Compile Include="Controllers\SCDetalleSolicitudController.cs" />
+    <Compile Include="Controllers\SCFilesSolicitudCompraController.cs" />
+    <Compile Include="Controllers\SCItemArticuloController.cs" />
+    <Compile Include="Controllers\SCProveedorController.cs" />
+    <Compile Include="Controllers\solicitud\SCSolicitudAbastecimientoController.cs" />
+    <Compile Include="Controllers\solicitud\SCSolicitudAutorizadorController.cs" />
+    <Compile Include="Controllers\SCSolicitudController.cs" />
+    <Compile Include="Controllers\SolicitudCompraController.cs" />
+    <Compile Include="Controllers\solicitud\AnularSolicitudController.cs" />
+    <Compile Include="Controllers\solicitud\SCFilesSolicitudAdjuntoController.cs" />
     <Compile Include="Controllers\UserRolController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -307,6 +323,7 @@
     <Folder Include="certificadosmp\" />
     <Folder Include="certificadospt\" />
     <Folder Include="Models\" />
+    <Folder Include="sc\solicitud\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -322,6 +339,10 @@
     <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
       <Project>{ea2f78d1-2096-4863-8ba7-d08ece2093d6}</Project>
       <Name>CapaNegocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Comunes\Comunes.csproj">
+      <Project>{44a29fb7-bafe-4c4a-95f0-d012acbb3d4e}</Project>
+      <Name>Comunes</Name>
     </ProjectReference>
     <ProjectReference Include="..\Reportes\Reportes.csproj">
       <Project>{934285a8-fd3f-4574-93bd-8e3fe055898f}</Project>

@@ -53,6 +53,15 @@
     <Compile Include="PersonaVacacionNegocio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RolNegocio.cs" />
+    <Compile Include="SCConversacionNegocio.cs" />
+    <Compile Include="SCDetalleOrdenCompraNegocio.cs" />
+    <Compile Include="SCDetalleSolicitudCompraNegocio.cs" />
+    <Compile Include="SCFileNegocio.cs" />
+    <Compile Include="SCItemArticuloNegocio.cs" />
+    <Compile Include="SCOrdenCompraNegocio.cs" />
+    <Compile Include="SCProveedorNegocio.cs" />
+    <Compile Include="SCSolicitudCompraNegocio.cs" />
+    <Compile Include="SCTipoCompraEncargadoNegocio.cs" />
     <Compile Include="UserRolNegocio.cs" />
     <Compile Include="UsuariosNegocio.cs" />
   </ItemGroup>

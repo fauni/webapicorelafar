@@ -42,7 +42,14 @@
   <ItemGroup>
     <Compile Include="ManejoErrores.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sc\SCSolicitudCompraComunes.cs" />
     <Compile Include="WS_SegNet.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaModelos\CapaModelos.csproj">
+      <Project>{2e1d75cd-8fb0-4816-be8f-95eef1344c73}</Project>
+      <Name>CapaModelos</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
