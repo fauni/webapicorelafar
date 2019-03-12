@@ -10,7 +10,7 @@ namespace Comunes
 {
     public class SCSolicitudCompraComunes
     {
-        public static string url = "http://localhost:4200/#/sc/";
+        public static string url = "http://192.168.2.58/lafarnet/#/sc/";
         public void enviarEmail(Email email)
         {
             MailMessage mail = new MailMessage();

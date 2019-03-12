@@ -11,6 +11,11 @@ namespace CapaNegocio
 {
     public class UsuariosNegocio
     {
+        public string EncriptarString(string valor)
+        {
+            return Comunes.WS_SegNet.EncriptarValor(valor);
+        }
+
         public List<Usuarios> GetUsuarioForId(int id)
         {
             try

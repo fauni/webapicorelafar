@@ -82,7 +82,7 @@ namespace apicore.Controllers
             //rep.Crear(certificado);
 
             HttpResponseMessage response = new HttpResponseMessage();
-            var localFilePath = Parametros.rutaCertificadoMP() + codigo_certificado + ".pdf"; //HttpContext.Current.Server.MapPath("~/certificadosmp/prueba.pdf");
+            var localFilePath = Parametros.rutaCertificadoMP() + codigo_certificado.Replace("/", "¿") + ".pdf"; //HttpContext.Current.Server.MapPath("~/certificadosmp/prueba.pdf");
             byte[] pdfbytes = System.IO.File.ReadAllBytes(localFilePath);
 
             if (!File.Exists(localFilePath))

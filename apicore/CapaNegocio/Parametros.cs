@@ -9,6 +9,30 @@ namespace CapaNegocio
 {
     public class Parametros
     {
+        public static string rutaOrdenCompra()
+        {
+            try
+            {
+                return ConfigurationManager.AppSettings["RUTA_ORDEN"].ToString();
+            }
+            catch
+            {
+                return "C:\\INTRANET\\SC\\ORDEN";//Se devuelve un valor estatico ya que al ser variable de inicializacion no se debe levantar error
+            }
+        }
+
+        public static string rutaDetalleOrdenCompra()
+        {
+            try
+            {
+                return ConfigurationManager.AppSettings["RUTA_DETALLE_ORDEN"].ToString();
+            }
+            catch
+            {
+                return "C:\\INTRANET\\SC\\DETALLE_ORDEN";//Se devuelve un valor estatico ya que al ser variable de inicializacion no se debe levantar error
+            }
+        }
+
         public static string rutaCertificadoMP()
         {
             try

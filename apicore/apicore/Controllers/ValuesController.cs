@@ -4,11 +4,13 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using CapaNegocio;
 
 namespace apicore.Controllers
 {
     public class ValuesController : ApiController
     {
+        UsuariosNegocio u = new UsuariosNegocio();
         // GET api/values
         public IEnumerable<string> Get()
         {
@@ -16,9 +18,9 @@ namespace apicore.Controllers
         }
 
         // GET api/values/5
-        public string Get(int id)
+        public string Get(string id)
         {
-            return "value";
+            return u.EncriptarString(id);
         }
 
         // POST api/values

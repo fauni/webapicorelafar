@@ -27,7 +27,7 @@ namespace Reportes
             font11 = new iTextSharp.text.Font(bf, 11, iTextSharp.text.Font.NORMAL);
             font10 = new iTextSharp.text.Font(bf, 10, iTextSharp.text.Font.NORMAL);
             font10b = new iTextSharp.text.Font(bf, 10, iTextSharp.text.Font.BOLD);
-            font10bn = new iTextSharp.text.Font(bf, 10, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.WHITE);
+            font10bn = new iTextSharp.text.Font(bf, 10, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK);
         }
 
         public void Crear(CertificadoMPModelo certificado, List<CaracteristicaCertificadoModelo> lcf, List<CaracteristicaCertificadoModelo> lcm)
@@ -36,7 +36,7 @@ namespace Reportes
             try
             {
                 // Step 1: Creating System.IO.FileStream object
-                using (FileStream fs = new FileStream(appRootDir + certificado.codigo_certificado +".pdf", FileMode.Create, FileAccess.Write, FileShare.None))
+                using (FileStream fs = new FileStream(appRootDir + certificado.codigo_certificado.Replace("/", "¿") + ".pdf", FileMode.Create, FileAccess.Write, FileShare.None))
                 // Step 2: Creating iTextSharp.text.Document object
                 using (Document doc = new Document(PageSize.LEGAL, 25f, 25f, 90f, 0f))
                 // Step 3: Creating iTextSharp.text.pdf.PdfWriter object
@@ -156,39 +156,39 @@ namespace Reportes
                     //tcabecera.TotalWidth = doc.PageSize.Width - doc.LeftMargin - doc.RightMargin;
                     PdfPCell censayo = new PdfPCell(new Paragraph("ENSAYO", this.font10bn));
                     censayo.BorderColor = new iTextSharp.text.BaseColor(104, 104, 104);
-                    censayo.BorderColor = BaseColor.LIGHT_GRAY;
-                    censayo.BorderColor = iTextSharp.text.pdf.ExtendedColor.LIGHT_GRAY;
+                    censayo.BorderColor = BaseColor.BLACK;
+                    censayo.BorderColor = iTextSharp.text.pdf.ExtendedColor.BLACK;
                     censayo.BackgroundColor = new iTextSharp.text.BaseColor(104, 104, 104);
-                    censayo.BackgroundColor = BaseColor.BLACK;
-                    censayo.BackgroundColor = iTextSharp.text.pdf.ExtendedColor.BLACK;
+                    censayo.BackgroundColor = BaseColor.LIGHT_GRAY;
+                    censayo.BackgroundColor = iTextSharp.text.pdf.ExtendedColor.LIGHT_GRAY;
                     censayo.HorizontalAlignment = Element.ALIGN_CENTER;
                     tcuerpo.AddCell(censayo);
                     PdfPCell cespecificaciones = new PdfPCell(new Paragraph("ESPECIFICACIONES", this.font10bn));
                     cespecificaciones.BorderColor = new iTextSharp.text.BaseColor(104, 104, 104);
-                    cespecificaciones.BorderColor = BaseColor.LIGHT_GRAY;
-                    cespecificaciones.BorderColor = iTextSharp.text.pdf.ExtendedColor.LIGHT_GRAY;
+                    cespecificaciones.BorderColor = BaseColor.BLACK;
+                    cespecificaciones.BorderColor = iTextSharp.text.pdf.ExtendedColor.BLACK;
                     cespecificaciones.BackgroundColor = new iTextSharp.text.BaseColor(104, 104, 104);
-                    cespecificaciones.BackgroundColor = BaseColor.BLACK;
-                    cespecificaciones.BackgroundColor = iTextSharp.text.pdf.ExtendedColor.BLACK;
+                    cespecificaciones.BackgroundColor = BaseColor.LIGHT_GRAY;
+                    cespecificaciones.BackgroundColor = iTextSharp.text.pdf.ExtendedColor.LIGHT_GRAY;
                     cespecificaciones.HorizontalAlignment = Element.ALIGN_CENTER;
                     tcuerpo.AddCell(cespecificaciones);
                     PdfPCell cresultado = new PdfPCell(new Paragraph("RESULTADO", this.font10bn));
                     cresultado.BorderColor = new iTextSharp.text.BaseColor(104, 104, 104);
-                    cresultado.BorderColor = BaseColor.LIGHT_GRAY;
-                    cresultado.BorderColor = iTextSharp.text.pdf.ExtendedColor.LIGHT_GRAY;
+                    cresultado.BorderColor = BaseColor.BLACK;
+                    cresultado.BorderColor = iTextSharp.text.pdf.ExtendedColor.BLACK;
                     cresultado.BackgroundColor = new iTextSharp.text.BaseColor(104, 104, 104);
-                    cresultado.BackgroundColor = BaseColor.BLACK;
-                    cresultado.BackgroundColor = iTextSharp.text.pdf.ExtendedColor.BLACK;
+                    cresultado.BackgroundColor = BaseColor.LIGHT_GRAY;
+                    cresultado.BackgroundColor = iTextSharp.text.pdf.ExtendedColor.LIGHT_GRAY;
                     cresultado.HorizontalAlignment = Element.ALIGN_CENTER;
                     tcuerpo.AddCell(cresultado);
                     PdfPCell ccfisicas = new PdfPCell(new Paragraph("CARACTERÍSTICAS FÍSICAS", this.font10bn));
                     ccfisicas.Colspan = 3;
                     ccfisicas.BorderColor = new iTextSharp.text.BaseColor(104, 104, 104);
-                    ccfisicas.BorderColor = BaseColor.LIGHT_GRAY;
-                    ccfisicas.BorderColor = iTextSharp.text.pdf.ExtendedColor.LIGHT_GRAY;
+                    ccfisicas.BorderColor = BaseColor.BLACK;
+                    ccfisicas.BorderColor = iTextSharp.text.pdf.ExtendedColor.BLACK;
                     ccfisicas.BackgroundColor = new iTextSharp.text.BaseColor(104, 104, 104);
-                    ccfisicas.BackgroundColor = BaseColor.BLACK;
-                    ccfisicas.BackgroundColor = iTextSharp.text.pdf.ExtendedColor.BLACK;
+                    ccfisicas.BackgroundColor = BaseColor.LIGHT_GRAY;
+                    ccfisicas.BackgroundColor = iTextSharp.text.pdf.ExtendedColor.LIGHT_GRAY;
                     ccfisicas.HorizontalAlignment = Element.ALIGN_LEFT;
                     tcuerpo.AddCell(ccfisicas);
                     doc.Add(tcuerpo);
@@ -220,14 +220,14 @@ namespace Reportes
                     tblcmicrobio.SpacingAfter = 0f;
                     tblcmicrobio.SpacingBefore = 2f;
                     tblcmicrobio.WidthPercentage = 100;
-                    tblcmicrobio.DefaultCell.BackgroundColor = BaseColor.BLACK;
+                    tblcmicrobio.DefaultCell.BackgroundColor = BaseColor.LIGHT_GRAY;
                     PdfPCell cconmicro = new PdfPCell(new Paragraph("CONTROL MICROBIOLÓGICO", this.font10bn));
                     cconmicro.Colspan = 3;
                     cconmicro.BorderColor = new iTextSharp.text.BaseColor(104, 104, 104);
-                    cconmicro.BorderColor = BaseColor.LIGHT_GRAY;
-                    cconmicro.BorderColor = iTextSharp.text.pdf.ExtendedColor.LIGHT_GRAY;
+                    cconmicro.BorderColor = BaseColor.BLACK;
+                    cconmicro.BorderColor = iTextSharp.text.pdf.ExtendedColor.BLACK;
                     cconmicro.BackgroundColor = new iTextSharp.text.BaseColor(104, 104, 104);
-                    cconmicro.BackgroundColor = BaseColor.BLACK;
+                    cconmicro.BackgroundColor = BaseColor.LIGHT_GRAY;
                     cconmicro.HorizontalAlignment = Element.ALIGN_LEFT;
                     tblcmicrobio.AddCell(cconmicro);
                     doc.Add(tblcmicrobio);

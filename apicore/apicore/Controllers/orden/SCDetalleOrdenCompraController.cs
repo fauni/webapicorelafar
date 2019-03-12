@@ -51,8 +51,24 @@ namespace apicore.Controllers.orden
         }
 
         // PUT api/scdetalleordencompra/5
-        public void Put(int id, [FromBody]string value)
+        public ResponseAddDetalleOrdenCompra Put(int id, [FromBody]OCDetalleOrdenCompra value)
         {
+            if (docn.Add(value))
+            {
+                return new ResponseAddDetalleOrdenCompra
+                {
+                    status = true,
+                    message = "Se modifico correctamente!"
+                };
+            }
+            else
+            {
+                return new ResponseAddDetalleOrdenCompra
+                {
+                    status = false,
+                    message = "No se modifico!"
+                };
+            }
         }
 
         // DELETE api/scdetalleordencompra/5

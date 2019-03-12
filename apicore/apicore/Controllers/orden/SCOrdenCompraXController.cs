@@ -39,7 +39,7 @@ namespace apicore.Controllers
                 message = "OK"
             };
         }
-
+        // Para guardar orden de compra
         // POST api/scordencomprax
         public ResponseAddOrdenCompra Post([FromBody]OCOrdenCompra value)
         {
@@ -58,13 +58,37 @@ namespace apicore.Controllers
         }
 
         // PUT api/scordencomprax/5
-        public void Put(int id, [FromBody]string value)
+        public ResponseAddOrdenCompra Put(int id, [FromBody]OCOrdenCompra value)
         {
+            ResponseAddOrdenCompra response = new ResponseAddOrdenCompra();
+            if (ocn.Edit(value))
+            {
+                response.status = 200;
+                response.message = "Se modifico correctamente!";
+            }
+            else
+            {
+                response.status = 304;
+                response.message = "No se modifico!";
+            }
+            return response;
         }
 
         // DELETE api/scordencomprax/5
-        public void Delete(int id)
+        public ResponseAddOrdenCompra Delete(string id)
         {
+            ResponseAddOrdenCompra response = new ResponseAddOrdenCompra();
+            if (ocn.Delete(id))
+            {
+                response.status = 200;
+                response.message = "Se elimino correctamente!";
+            }
+            else
+            {
+                response.status = 304;
+                response.message = "No se elimino!";
+            }
+            return response;
         }
 
         public HttpResponseMessage Options()

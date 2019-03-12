@@ -35,10 +35,55 @@ namespace CapaModelos
         public int incoterms { get; set; }
         public string encargado_compra { get; set; }
         public string nombre_encargado_compra { get; set; }
+        public string usuario_anulacion { get; set; }
+        public string motivo_anulacion { get; set; }
+        public DateTime fecha_anulacion { get; set; }
+        public string usuario_cierre { get; set; }
+        public DateTime fecha_cierre { get; set; }
         public string usuario_creacion { get; set; }
         public DateTime fecha_creacion { get; set; }
         public string usuario_modificacion { get; set; }
         public DateTime fecha_modificacion { get; set; }
+    }
+
+    public class OCOrdenCompraX
+    {
+        public string id_orden_compra { get; set; }
+        public string codigo_orden { get; set; }
+        public string tipo_orden { get; set; }
+        public string estado { get; set; }
+        public string estado_transferencia { get; set; }
+        public string fecha_orden { get; set; }
+        public string codigo_proveedor { get; set; }
+        public string nombre_proveedor { get; set; }
+        public string direccion_proveedor { get; set; }
+        public string empid { get; set; }
+        public string solicitante { get; set; }
+        public string nombre_solicitante { get; set; }
+        public string autorizador_sub { get; set; }
+        public string autorizador_gerencia { get; set; }
+        public string monto_total { get; set; }
+        public string motivo_orden { get; set; }
+        public string fecha_entrega { get; set; }
+        public string estado_autorizacion_subgerencia { get; set; }
+        public string motivo_autorizacion_subgerencia { get; set; }
+        public string fecha_autorizacion_subgerencia { get; set; }
+        public string estado_autorizacion_gerencia { get; set; }
+        public string motivo_autorizacion_gerencia { get; set; }
+        public string fecha_autorizacion_gerencia { get; set; }
+        public string tipo_compra { get; set; }
+        public string incoterms { get; set; }
+        public string encargado_compra { get; set; }
+        public string nombre_encargado_compra { get; set; }
+        public string usuario_anulacion { get; set; }
+        public string motivo_anulacion { get; set; }
+        public string fecha_anulacion { get; set; }
+        public string usuario_cierre { get; set; }
+        public string fecha_cierre { get; set; }
+        public string usuario_creacion { get; set; }
+        public string fecha_creacion { get; set; }
+        public string usuario_modificacion { get; set; }
+        public string fecha_modificacion { get; set; }
     }
 
     public class ResponseOrdenCompra
@@ -62,7 +107,10 @@ namespace CapaModelos
         public string titular { get; set; }
         public string tipo_orden { get; set; }
         public string motivo_orden { get; set; }
+        public string estado_autorizacion_subgerencia { get; set; }
         public string estado_autorizacion_gerencia { get; set; }
+        public float monto_total { get; set; }
+        public string estado_transferencia { get; set; }
     }
 
     public class ResponseListadoOrdenCompraAbastecimiento
@@ -71,5 +119,11 @@ namespace CapaModelos
         public List<OrdenCompraListAbastecimiento> body { get; set; }
         public int length { get; set; }
         public string message { get; set; }
+    }
+
+    public class DeleteOrdenCompra
+    {
+        public string codigo_orden { get; set; }
+        public string usuario_modificacion { get; set; }
     }
 }
