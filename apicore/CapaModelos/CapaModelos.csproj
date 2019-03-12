@@ -45,9 +45,15 @@
     <Compile Include="CertificadoPTModelo.cs" />
     <Compile Include="Conversacion.cs" />
     <Compile Include="Departamento.cs" />
+    <Compile Include="oc\NotificacionOrden.cs" />
+    <Compile Include="oc\NumeroOrdenCompra.cs" />
     <Compile Include="oc\OCDetalleOrdenCompra.cs" />
     <Compile Include="oc\OCOrdenCompra.cs" />
     <Compile Include="oc\OCTipoCompraEncargado.cs" />
+    <Compile Include="oc\OPOR.cs" />
+    <Compile Include="oc\OPOR2.cs" />
+    <Compile Include="oc\POR1.cs" />
+    <Compile Include="oc\POR1X.cs" />
     <Compile Include="sc\DetalleSolicitudCompra.cs" />
     <Compile Include="Fabricante.cs" />
     <Compile Include="FilesModels\File.cs" />

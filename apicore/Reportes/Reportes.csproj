@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="CertificadoMP.cs" />
     <Compile Include="CertificadoPT.cs" />
+    <Compile Include="OrdenCompra.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -56,6 +57,10 @@
     <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
       <Project>{ea2f78d1-2096-4863-8ba7-d08ece2093d6}</Project>
       <Name>CapaNegocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Comunes\Comunes.csproj">
+      <Project>{44a29fb7-bafe-4c4a-95f0-d012acbb3d4e}</Project>
+      <Name>Comunes</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

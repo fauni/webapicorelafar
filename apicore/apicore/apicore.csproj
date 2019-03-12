@@ -163,7 +163,14 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\conversacion\SCConversacionOrdenController.cs" />
+    <Compile Include="Controllers\orden\AnularOrdenController.cs" />
+    <Compile Include="Controllers\orden\NotificacionOrdenController.cs" />
     <Compile Include="Controllers\orden\SCDetalleOrdenCompraController.cs" />
+    <Compile Include="Controllers\orden\SCGeneraOrdenCompraController.cs" />
+    <Compile Include="Controllers\orden\SCNumeroOrdenCompraController.cs" />
+    <Compile Include="Controllers\orden\SCOrdenAbastecimientoController.cs" />
+    <Compile Include="Controllers\orden\SCOrdenAutorizadorGController.cs" />
+    <Compile Include="Controllers\orden\SCOrdenAutorizadorSGController.cs" />
     <Compile Include="Controllers\orden\SCTipoCompraEncargadoController.cs" />
     <Compile Include="Controllers\orden\SCOrdenCompraXController.cs" />
     <Compile Include="Controllers\solicitud\AutorizarSolicitudController.cs" />
